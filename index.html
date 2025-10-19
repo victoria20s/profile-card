@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+    <header>
+      <h2 data-testid="test-user-name">Victoria David</h2>
+    </header>
+
+    <figure>
+      <img 
+
+    src="image.png" 
+    alt="Victoria David avatar" 
+    data-testid="test-user-avatar"
+
+        />
+    </figure>
+
+    <p data-testid="test-user-bio">
+      Passionate DevOps Engineer focused on building reliable pipelines, automating deployments, and bridging the gap between development and operations.
+    </p>
+
+    <p>
+      Current Time (ms): 
+      <span data-testid="test-user-time" id="time"></span>
+    </p>
+
+    <nav>
+      <ul data-testid="test-user-social-links">
+        <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+        <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+        <li><a href="https://example.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h3>Hobbies</h3>
+      <ul data-testid="test-user-hobbies">
+        <li>Coding</li>
+        <li>Music</li>
+        <li>Reading</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Dislikes</h3>
+      <ul data-testid="test-user-dislikes">
+        <li>Slow Wi-Fi</li>
+        <li>Cluttered code</li>
+      </ul>
+    </section>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
